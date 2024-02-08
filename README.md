@@ -9,3 +9,5 @@ O aplicativo consiste em um sistema de delivery de uma hamburgueria, onde o usu√
 - Typescript
 - Tailwind
 - Expo
+
+
