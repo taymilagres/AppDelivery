@@ -96,6 +96,10 @@ export default function Cart(){
                         </Text>
                     </View>
 
+                    <View className="flex-row items-center border-b border-lime-400 pb-5 mx-20"></View>
+
+                    <Text className="text-white font-heading pb-4 pt-8 text-xl">Informações para entrega:</Text>
+
                     <InputName
                     placeholder="Insira o seu nome"
                     onChangeText={setName}

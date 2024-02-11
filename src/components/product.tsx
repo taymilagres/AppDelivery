@@ -27,7 +27,7 @@ export const Product = forwardRef<TouchableOpacity, ProductProps >(({data, ...re
                     </Text>}
                 </View>
                 
-                <Text className="text-slate-400 text-xs leading-5 mt-0.5 text-justify"> {data.description} </Text>
+                <Text className="text-slate-400 text-xs leading-5 mt-0.5"> {data.description} </Text>
             </View>
         </TouchableOpacity>
     )
