@@ -12,3 +12,15 @@ export function Input({...rest} : TextInputProps){
     {...rest}
     />
 }
+
+export function InputName({...rest} : TextInputProps){
+    return <TextInput 
+    textAlignVertical="top"
+    placeholderTextColor={colors.slate[400]}
+
+    className="h-10 bg-slate-800 rounded-md px-4 py-3 font-body text-sm text-white mb-5"
+
+    {...rest}
+    />
+
+}

@@ -11,6 +11,7 @@ import { Product } from "@/components/product";
 import { ProductCartProps, useCartStore } from "@/stores/cart-store";
 import { formatCurrency } from "@/utils/functions/format-currency";
 import { Input } from "@/components/input";
+import { InputName } from "@/components/input";
 import { Button } from "@/components/button";
 import { LinkButton } from "@/components/link-button";
 import { useState } from "react";
@@ -19,6 +20,7 @@ const PHONE_NUMBER = "5531986459056"
 
 export default function Cart(){
     const [address, setAddress] = useState("")
+    const [name, setName] = useState("")
     const navigation = useNavigation()
 
 
@@ -48,6 +50,7 @@ export default function Cart(){
         //Formatando a menssagem de envio do pedido
         const message = `
         🍔NOVO PEDIDO!🍔
+        \n Nome: ${name}
         \n Entregar em: ${address}
 
         ${products}
@@ -92,6 +95,14 @@ export default function Cart(){
                             {total}
                         </Text>
                     </View>
+
+                    <InputName
+                    placeholder="Insira o seu nome"
+                    onChangeText={setName}
+                    onSubmitEditing={handleOrder}
+                    blurOnSubmit={true}
+                    returnKeyType="next"
+                    />
 
                     <Input 
                         placeholder="Informe o endereço de entrega com: Rua, Bairro, CEP, Número e Complemento... " 
