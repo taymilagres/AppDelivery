@@ -4,10 +4,10 @@ const MENU = [
     data: [
       {
         id: "1",
-        title: "X-React",
+        title: "X-Duplo Smash",
         price: 24.9,
         description:
-          "Um hamburger tão bonito que me deu fome enquanto eu fazia esse layout para o projeto...",
+          "Sabores intensos se chocando em um abraço suculento: o encontro épico de 2 blends da casa e tudo que há de melhor.",
         cover: require("../../assets/products/cover/1.png"),
         thumbnail: require("../../assets/products/thumbnail/1.png"),
         ingredients: [
@@ -28,7 +28,7 @@ const MENU = [
     data: [
       {
         id: "2",
-        title: "X-JavaScript",
+        title: "X-Tudo",
         price: 34.9,
         description:
           "Os ingredientes desse hambúrguer mudam toda semana, então você sempre terá uma surpresa...",
@@ -36,50 +36,53 @@ const MENU = [
         thumbnail: require("../../assets/products/thumbnail/2.png"),
         ingredients: [
           "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
+          "1x Bife (blend da casa) de 80g;",
           "Queijo cheddar;",
           "Alface;",
           "Tomate;",
-          "Picles;",
-          "Cebola;",
+          "Presunto;",
+          "Ovo;",
           "Molho da casa;",
         ],
       },
       {
         id: "3",
-        title: "X-Cobol",
+        title: "X-Da Casa",
         price: 32.7,
         description:
-          "Aquele hambúrguer que não podemos tirar do cardápio devido aos clientes mais antigos da hamburgueria...",
+          "Sabor intenso em cada mordida. Nosso campeão suculento e irresistível. O mais pedido da casa.",
         cover: require("../../assets/products/cover/3.png"),
         thumbnail: require("../../assets/products/thumbnail/3.png"),
         ingredients: [
           "Pão brioche;",
           "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
+          "Duplo Cheddar;",
+          "Ovo;",
+          "Bacon;",
           "Alface;",
           "Tomate;",
-          "Picles;",
+          "Calabresa;",
           "Cebola;",
           "Molho da casa;",
         ],
       },
       {
         id: "4",
-        title: "X-Tailwind",
+        title: "X-Frango",
         price: 29.9,
         description:
-          "Aquele que você não gosta de primeira, mas depois fica viciado e não consegue mais largar...",
+          "Leveza e sabor se encontram em cada pedaço do nosso hambúrguer de frango, uma explosão de sabores suculentos que conquistam o paladar. ",
         cover: require("../../assets/products/cover/4.png"),
         thumbnail: require("../../assets/products/thumbnail/4.png"),
         ingredients: [
           "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
+          "1x Filé de Frango empanado de 80g;",
           "Queijo cheddar;",
           "Alface;",
           "Tomate;",
           "Picles;",
-          "Cebola;",
+          "Cebolinha;",
+          "Cebola Caramelisada;",
           "Molho da casa;",
         ],
       },
@@ -119,7 +122,7 @@ const MENU = [
     data: [
       {
         id: "7",
-        title: "Hmmm, coquinha!",
+        title: "Coca Cola",
         price: 6.9,
         thumbnail: require("../../assets/products/thumbnail/7.png"),
         cover: require("../../assets/products/cover/7.png"),
